@@ -23,7 +23,7 @@ notifier=ToastNotifier()
 
 message=cases_information+ "\n" + deaths_information
 
-print(message)
+#print(message)
 
 notifier.show_toast(title="Covid-19 update", msg=message ,duration=5 , icon_path="virus.ico" )
 True
